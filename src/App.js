@@ -5,6 +5,7 @@ import ArrowComponent from "./components/ArrowComponent";
 import MyLogin from "./components/MyLogin";
 import ArrowLogin from "./components/ArrowLogin";
 import StateComponent from "./components/StateComponent";
+import ArrowState from "./components/ArrowState";
 
 // 함수형 컴포넌트
 function App() {
@@ -25,6 +26,7 @@ function App() {
           // props속성의 이름을 통해서 props값을 전달할수 있다
         />
         <StateComponent />
+        <ArrowState />
       </header>
     </div>
   );
